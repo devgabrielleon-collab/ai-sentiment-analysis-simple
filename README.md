@@ -1,32 +1,32 @@
-# Ideia do Projeto: IA de Classificação de Sentimentos para Feedback de Clientes
+# IA de Classificação de Sentimentos para Feedback de Clientes
 
 ## Resumo
-Este projeto consiste numa ferramenta simples de IA que utiliza Processamento de Linguagem Natural (NLP) para classificar o sentimento (positivo, negativo ou neutro) de feedbacks de clientes. O objetivo é ajudar pequenas empresas a automatizar a triagem de comentários. Projeto do curso de IA em desenvolvimento.
+Este projeto desenvolve uma ferramenta de IA simples que utiliza Processamento de Linguagem Natural para classificar feedbacks de clientes como positivos, negativos ou neutros. O objetivo é automatizar a triagem de comentários para pequenas empresas. Projeto do curso de IA em desenvolvimento.
 
 ## Background
-Muitas pequenas empresas recebem centenas de comentários e avaliações diariamente, mas não têm tempo para ler todos. Identificar rapidamente clientes insatisfeitos é crucial para a retenção.
-* Problema 1: Sobrecarga de informação manual.
-* Problema 2: Tempo de resposta lento para feedbacks negativos.
-* Motivação: Facilitar a gestão de reputação online para empreendedores.
+Pequenas empresas enfrentam dificuldades em gerir grandes volumes de avaliações online. Identificar rapidamente insatisfações é vital para o negócio.
+* Problema 1: Análise manual demorada.
+* Problema 2: Dificuldade em priorizar respostas críticas.
+* Motivação: Democratizar o acesso a ferramentas de análise de dados.
 
 ## Como é utilizado?
-O utilizador insere uma lista de comentários num script Python ou carrega um ficheiro CSV. A IA processa cada texto e gera um relatório com a polaridade predominante.
-* Utilizadores: Gestores de redes sociais, donos de pequenos negócios.
-* Contexto: Análise pós-venda ou monitorização de redes sociais.
+O sistema recebe textos de feedbacks e devolve a classificação emocional de cada um, permitindo gerar relatórios de satisfação automáticos.
+* Utilizadores: Empreendedores e gestores de suporte.
+* Contexto: Monitorização de satisfação pós-compra.
 
 ## Dados e técnicas de IA
-O projeto utiliza a biblioteca `TextBlob` ou `VADER` para análise de sentimentos baseada em léxico.
-* Fontes de dados: Exemplos sintéticos de feedbacks de clientes.
-* Técnicas: Análise de Sentimentos (NLP).
+Utiliza técnicas de análise léxica para processamento de texto e classificação de polaridade.
+* Fontes de dados: Feedbacks simulados de clientes.
+* Técnicas: Processamento de Linguagem Natural (NLP).
 
 ## Desafios
-* O projeto não deteta sarcasmo de forma eficaz.
-* Limitações linguísticas (focado inicialmente em Inglês/Português dependendo da biblioteca).
+* Limitações na deteção de ironia e sarcasmo.
+* Necessidade de bases de dados mais amplas para maior precisão.
 
 ## Próximos passos
-* Integrar com a API do Google Maps ou Instagram para recolha automática.
-* Treinar um modelo personalizado com Scikit-Learn para maior precisão.
+* Implementação de modelos de Machine Learning supervisionados.
+* Integração direta com APIs de redes sociais.
 
 ## Agradecimentos
-* Inspirado no curso "Building AI" da Universidade de Helsínquia.
-* Bibliotecas: TextBlob / NLTK.
+* Curso "Building AI" da Universidade de Helsínquia.
+* Comunidade Open Source de Python.
